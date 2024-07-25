@@ -1,0 +1,1491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+                                    /* nav-bar-1 section */
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left, .nav-right {
+    width: 50%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-icon {
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.nav-right {
+    justify-content: right;
+}
+
+.nav-contact {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.call {
+    color: green;
+    margin: 10px;
+}
+
+.btn-1 {
+    width: 100px;
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+    cursor: pointer;
+}
+
+                                            /* nav-bar-2 section */
+
+.nav-2 {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.img-1{
+    width: 10%;
+    height: 8vh;
+    padding-left: 35px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list-item {
+    list-style: none;
+    font-size: x-large;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 10px;
+    cursor: pointer;
+}
+
+.nav-list-item:hover {
+    text-decoration: underline 2px yellow;
+    line-height: 1.5rem;
+}
+
+.nav-line::after {
+    content: '';
+    position: absolute;
+    bottom: 675px;
+    left: 52.2%;
+    width: 9%;
+    height: 8px;
+    background-color: orange;
+}
+
+.nav-list-icon{
+    display: none;
+}
+
+                                                /* main section */
+
+.main {
+    background-image: url(images/background\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.heading-1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    bottom: 10px;
+    height: 12%;
+}
+
+.paragraph-1 {
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn-2 {
+    width: 10%;
+    height: 5vh;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: orange;
+    border-bottom: 4px solid orange;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    font-weight: bolder;
+}
+
+.radio-button {
+    position: relative;
+    top: 33%;
+}
+
+.input-1 {
+    display: none;
+}
+
+.radio-button label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input:checked+label {
+    background-color: white;
+}
+
+                                                    /* advantages section */
+
+.sec-1 {
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-2 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.sp-1 {
+    color: green;
+}
+
+.paragraph-2 {
+    color: rgb(187, 187, 187);
+    width: 55%;
+    height: 50px;
+    text-align: center;
+    font-size: small;
+}
+
+.card-1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    margin-top: 30px;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5 {
+    width: 18%;
+    height: 20rem;
+    text-align: center;
+}
+
+.icon-1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 80px;
+}
+
+.bulb {
+    color: rgb(154, 243, 21);
+    font-size: 60px;
+    /* visibility: inherit; */
+}
+
+.heading-3 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragraph-3 {
+    font-size: smaller;
+    color: rgb(170, 170, 170);
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+                                                 /* about us section */
+
+.sec-2 {
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(195, 194, 194, 0.292);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-2-left {
+    width: 40%;
+    height: 30rem;
+    position: relative;
+    right: 7rem;
+    top: 1rem;
+}
+
+.paragraph-4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.about-btn{
+    width: 20%;
+}
+
+.sec-2-right {
+    width: 40%;
+    height: 40rem;
+}
+
+.img-2 {
+    width: 700px;
+    height: 450px;
+    position: relative;
+    left: 20%;
+}
+
+                                              /* our services section */
+
+.sec-3 {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-2 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.box-6, .box-7, .box-8, .box-9 {
+    width: 20%;
+    height: 20rem;
+    border-radius: 10px;
+    background-color: rgba(187, 182, 182, 0.292);
+    text-align: center;
+}
+
+.star {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    bottom: 35px;
+    font-size: 50px;
+    padding: 15px;
+}
+
+.heading-4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.paragraph-5 {
+    width: 100%;
+    height: 130px;
+    color: rgb(170, 170, 170);
+    position: relative;
+    bottom: 10px;
+}
+
+.a-1 {
+    color: green;
+    font-size: 20px;
+}
+
+.a-1:hover{
+    font-size: 22px;
+}
+
+                                     /* our protofilo section */
+
+.sec-4 {
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-4-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sec-4-nav-item {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.sec-4-nav-item:hover {
+    text-decoration: underline;
+    color: orange;
+    font-size: 20px;
+}
+
+.color-change {
+    color: orange;
+}
+
+.sec-4-cards {
+    width: 100%;
+    height: 60vh;
+    margin-top: 20px;
+}
+
+.card-3, .card-4 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+.box-10, .box-11, .box-12, .box-13, .box-14, .box-15, .box-16, .box-17, .box-18, .box-19 {
+    width: 15%;
+    height: 15rem;
+    background-color: white;
+}
+
+.img-3 {
+    width: 250px;
+    height: 180px;
+
+}
+
+.heading-5 {
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(170, 168, 168);
+}
+
+.box-11, .box-13, .box-19 {
+    background-color: gray;
+}
+
+.box-12, .box-16 {
+    background-color: rgb(182, 179, 179);
+}
+
+.heading-6 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 10px;
+}
+
+.heading-7 {
+    color: white;
+    font-size: 30px;
+}
+
+.box-18 {
+    background-color: red;
+}
+
+.sp-2 {
+    color: yellow;
+}
+
+                                           /* process section */
+
+.sec-5 {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-5-partition{
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+
+.horizontal-line{
+    width: 64%;
+    height: 1%;
+    background-color: black;
+    position: relative;
+    top: 40%;
+    left: 18%;
+}
+
+.circles{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 2rem;
+}
+
+.first-circle{
+    width: 9%;
+    height: 18vh;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid rgb(170, 170, 170);
+}
+
+.small-circle{
+    width: 20%;
+    height: 3.5vh;
+    background-color: orangered;
+    border-radius: 50%;
+    position: relative;
+    left: 3.5rem;
+    bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon-2{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(137, 228, 0);
+}
+
+.circles-text{
+    width: 100%;
+    height: 18vh;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.first-circle-text{
+    width: 12%;
+    height: 4rem;
+    text-align: center;
+}
+
+                                             /* people about us section */
+
+.sec-6{
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(195, 194, 194, 0.292);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-6-partition{
+    width: 100%;
+    height: 65vh;
+}
+
+.part-1{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+.part-1-box-1, .part-1-box-2{
+    width: 50%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-lines{
+    border: 2px solid rgb(201, 201, 201);
+}
+
+.icon-3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 6rem;
+    color:  rgb(170, 170, 170);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.box-1-text{
+    width: 60%;
+    height: 15vh;
+    margin-left: 2rem;
+}
+
+.heading-8{
+    text-transform: uppercase;
+}
+
+                                            /* skills section */
+
+.sec-7{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-7-partition{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.sec-7-circles-1{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px solid orange;
+    border-left: 60px solid orange;
+
+}
+
+.sec-7-circles-text{
+    font-size: 1rem;
+    position: relative;
+    right: 10%;
+    color: orange;
+}
+
+.sec-7-circles-2{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 2px solid red;
+    border-left: 80px solid red;
+}                                                  
+
+.red{
+    color: red;
+}
+
+.sec-7-circles-3{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    border-left: 100px solid greenyellow;
+} 
+
+.green{
+    color: green;
+}
+
+.sec-7-circles-4{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-left: 130px solid black;
+} 
+
+.black{
+    color: black;
+}
+
+                                                /* new prject section */
+
+.sec-8{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(126, 192, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading-9{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.input-3{
+    margin: 80px 10px 5px 10px;
+    padding: 10px 25px 10px 13px;
+    text-transform: uppercase;
+    color: grey;
+    font-size: medium;
+}
+
+.paragraph-6{
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin: 0px 15% 0px 15%;
+    position: relative;
+    top: 4rem;
+}
+
+                                                              /* contacts section */
+
+.sec-9{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location{
+    font-size: 3rem;
+    color: green;
+    display: flex;
+}
+
+.paragraph-7{
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 0.5rem;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+                             /* footer section */
+
+.footer{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(12, 145, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-5{
+    width: 50%;
+    position: relative;
+    left: 10%;
+}
+
+.part-2{
+    width: 35%;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-paragraph{
+    margin: 15px 18px 10px 25px;
+}
+
+.copyright{
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    font-size: 1.5rem;
+}
+
+.part-3{
+    width: 35%;
+    height: 40vh;
+    color: white;
+    border-right: 3px solid black;
+    position: relative;
+    bottom: 15px;
+}
+
+.footer-heading{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 8%;
+    margin-left: 55px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+    margin-left: 55px;
+}
+
+.a-2{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.a-2:hover{
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.part-4{
+    width: 35%;
+    height: 40vh;
+    color: white;
+    position: relative;
+    bottom: 15px;
+}
+
+.a-3{
+    color: white;
+    cursor: pointer;
+}
+
+.footer-heading-2{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-icons{
+    display: flex;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+                                                   /* MediaQuries For Mobile */
+
+@media only screen and (max-width: 650px) { 
+
+                                       /* header */
+
+    .nav-contact{
+        display: none;
+    }
+    .nav-icon{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .img-1{
+        width: 30%;
+    }
+    .nav-list-item{
+        display: none;
+    }
+    .nav-list-icon{
+        display: flex;
+        font-size: 40px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    .nav-line::after{
+        display: none;
+    }
+
+                                            /* banner */
+
+    .heading-1{
+        font-size: 35px;
+    }
+
+    .paragraph-1{
+        font-size: xx-small;
+    }
+    .btn-2{
+        position: relative;
+        top: 10%;
+        width: 30%;
+        height: 4vh;
+    }
+    .heading-2{
+        font-size: x-large;
+    }
+    .paragraph-2{
+        font-size: 5px;
+    }
+    .card-1 {
+        width: 80%;
+        display: inline-block;
+    }
+    .heading-3{
+        font-size: 20px;
+        margin-left: 7rem;
+        margin-top: 2px;
+    }
+    .paragraph-3{
+        font-size: medium;
+        margin: 8px 10px 10% 10px;
+    }
+
+    .sec-2{
+        position: relative;
+        top: 80rem;
+    }
+    .part{
+        height: 60vh;
+    }
+    .sec-2-left{
+        position: relative;
+        left: -35px;
+        top: 50px;
+    }
+    .paragraph-4{
+        font-size: 8px;
+    }
+    .sec-2-right{
+        position: relative;
+        top: 180px;
+        right: 100px;
+    }
+    .img-2{
+        width: 150%;
+        height: 25vh;
+    }
+    .about-btn{
+        width: 85%;
+        position: relative;
+        top: 5px;
+    }
+
+    .sec-3{
+        position: relative;
+        top: 80rem;
+    }
+    .card-2{
+        width: 80%;
+        display: inline-block;
+    }
+    .box-6{
+
+        width: 100%;
+    }
+    .box-7, .box-8, .box-9{
+        margin-top: 40px;
+        width: 100%
+    }
+    .star{
+        left: 120px;
+    }
+
+    .sec-4{
+        position: relative;
+        top: 155rem;
+    }
+    .sec-4-nav{
+        width: 0%;
+    }
+    .sec-4-nav-item{
+        font-size: 10px;
+        padding: 0px;
+        margin: 0px -8px 5px -8px;
+    }
+    .sec-4-nav-item:hover{
+        display: none;
+    }
+    .box-10, .box-11, .box-12, .box-13, .box-14, .box-15, .box-16, .box-17, .box-18, .box-19{
+        width: 18%;
+        height: 11rem;
+    }
+    .img-3{
+        width: 50px;
+        height: 150px;
+    }
+    .heading-5, .heading-6, .heading-7{
+        font-size: 60%;
+    }
+    
+    .sec-5{
+        position: relative;
+        top: 155rem;
+    }
+    .circles{
+        gap: 18px;
+    }
+    .first-circle{
+        width: 20%;
+        height: 50%;
+        border-radius: 50%;
+        position: relative;
+        bottom: 30%;
+    }
+    .horizontal-line{
+        position: relative;
+        top: 60px;
+    }
+    .small-circle{
+        display: none;
+    }
+    .icon-2{
+        font-size: 2.8rem;
+        padding: 8px;
+    }
+    .circle-text{
+        font-size: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .mobile-head-3{
+        position: relative;
+        right: 15%;
+        bottom: 20%;
+        font-size: 70%;
+        text-align: center;
+    }
+    .paragraph-8{
+        width: 100%;
+        /* background-color: aqua; */
+        position: relative;
+        top: 10%;
+        font-size: 80%;
+    }
+
+    .sec-6{
+        position: relative;
+        top: 160rem;
+    }
+    .box-1-text{
+        position: relative;
+        right: 5%;
+    }
+    .heading-8{
+        font-size: 1rem;
+    }
+    .paragraph-9{
+        font-size: 35%;
+        position: relative;
+        top: 15%;
+    }
+    .icon-3{
+        width: 100%;
+        height: 15vh;
+        font-size: 3.5rem;
+        position: relative;
+        left: 5%;
+    }
+
+    .sec-7{
+        position: relative;
+        top: 163rem;
+    }
+    .sec-7-partition{
+        display: inline-block;
+        position: relative;
+        left: 30%;
+        top: 10%;
+    }
+    .sec-7-circles-text{
+        position: relative;
+        left: 33%;
+        bottom: 20%;
+        /* font-size: 1rem; */
+    }
+
+    .sec-8{
+        position: relative;
+        top: 200rem;
+        height: 150vh;
+    }
+    .btn-3{
+        width: 40%;
+        height: 5vh;
+        position: relative;
+        top: -8%;
+        background-color: orange;
+        border: none;
+    }
+    .paragraph-6{
+        width: 100%;
+        position: relative;
+        top: 1%;
+    }
+
+    .sec-9{
+        position: relative;
+        top: 202rem;
+    }
+    .paragraph-7{
+        font-size: small;
+    }
+    .location{
+        font-size: smaller;
+        position: relative;
+        bottom: 2%;
+    }
+    .add-contact{
+        display: block;
+        font-size: x-small;
+    }
+
+                                                 /* footer */
+
+    .footer{
+        position: relative;
+        top: 203rem;
+        width: 100%;
+        height: 80vh;
+    }
+    .img-5{
+        width: 50%;
+        position: relative;
+        left: 50%;
+        bottom: 10%;
+    }
+    .footer-heading{
+        font-size: 12px;
+        position: relative;
+        right: 25%;
+    }
+    .footer-paragraph{
+        font-size: 10px;
+        position: relative;
+        left: 20%;
+        bottom: 10%;
+    }
+    .footer-links{
+        width: 30%;
+    }
+    .a-2{
+        font-size: x-small;
+        position: relative;
+        right: 50%;
+    }
+    .a-3{
+        font-size: 10%;
+        position: relative;
+        right: 3rem;
+    }
+    .footer-heading-2{
+        font-size: smaller;
+        position: relative;
+        right: 4rem;
+    }
+    .footer-icons{
+        position: relative;
+        right: 3.5rem;
+        font-size: xx-small;
+    }
+    .foot-icon{
+        border-radius: 50%;
+        width: 45%;
+        height: 2vh;
+        font-size: 5px;
+        margin: 0.5px;
+    }
+    .copyright{
+        font-size: 18px;
+        position: relative;
+        left: 60%;
+    }
+}
+
+                                                       /* MediaQuries For tablets */
+
+@media only screen and (min-width: 651px) and (max-width: 1200px){ 
+
+                                                        /* header */
+
+.nav{
+    height: 5vh;
+}                                                        
+.nav-contact{
+display: none;
+}
+.nav-icon{
+width: 70%;
+margin-left: 10px;
+font-size: 2rem;
+
+}
+.nav-2{
+    width: 100%;
+    height: 8vh;
+}
+.img-1{
+width: 20%;
+}
+.nav-list-item{
+display: none;
+}
+.nav-list-icon{
+display: flex;
+font-size: 40px;
+margin-right: 15px;
+cursor: pointer;
+}
+.nav-line::after{
+display: none;
+}
+
+                                                 /* banner */
+
+.heading-1{
+    font-size: 4rem;
+}
+.paragraph-1{
+    font-size: 1rem;
+}
+.btn-2{
+    position: relative;
+    top: 10%;
+    width: 30%;
+    height: 4vh;
+    font-size: large;
+}
+
+.heading-2{
+    font-size: 2.5rem;
+}
+.paragraph-2{
+    width: 70%;
+    font-size: 1rem;
+}
+.card-1 {
+    height: 40vh;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+.box-2{
+    position: relative;
+    top: 10%;
+}
+.box-3{
+    position: relative;
+    top: 20%;
+}
+.box-4{
+    position: relative;
+    top: 30%;
+}
+.box-5{
+    position: relative;
+    top: 50%;
+}
+.heading-3{
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 5%;
+}
+.paragraph-3{
+    font-size: large;
+    margin-top: 10%;
+}
+
+.sec-2{
+    position: relative;
+    top: 90rem;
+}
+.part{
+    height: 80vh;
+}
+.sec-2-left{
+    position: relative;
+    left: -35px;
+    top: -6rem;
+
+}
+.paragraph-4{
+    font-size: 0.9em;
+}
+.sec-2-right{
+    position: relative;
+    right: 4.6rem;
+}
+.img-2{
+    width: 150%;
+    height: 35vh;
+}
+.about-btn{
+    width: 60%;
+    position: relative;
+    top: 5px;
+}
+
+.sec-3{
+    position: relative;
+    top: 80rem;
+}
+.card-2{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    top: 8rem;
+}
+.box-6{
+    width: 100%;
+}
+.box-7, .box-8, .box-9{
+    margin-top: 40px;
+    width: 100%
+}
+.star{
+    left: 140px;
+}
+
+.sec-4{
+    position: relative;
+    top: 145rem;
+}
+.sec-4-nav{
+    position: relative;
+    top: 6%;
+}
+.sec-4-nav-item{
+    font-size: 0.9rem;
+}
+.sec-4-nav-item:hover{
+    display: none;
+}
+.box-10, .box-11, .box-12, .box-13, .box-14, .box-15, .box-16, .box-17, .box-18, .box-19{
+    width: 18%;
+    height: 18rem;
+}
+.card-3{
+    position: relative;
+    top: 10%;
+}
+.card-4{
+    position: relative;
+    bottom: 10%;
+}
+.img-3{
+    width: 50%;
+    height: 15vh;
+}
+.heading-5, .heading-6, .heading-7{
+    font-size: 1rem;
+}
+
+.sec-5{
+    position: relative;
+    top: 145rem;
+    height: 50vh;
+}
+.circles{
+    gap: 4%;
+}
+.first-circle{
+    width: 20%;
+    height: 80%;
+    border-radius: 50%;
+}
+.horizontal-line{
+    position: relative;
+    top: 25%;
+    left: 1%;
+    width: 83%;
+}
+.icon-2{
+    font-size: 3rem;
+}
+.mobile-head-3{
+    position: relative;
+    bottom: 30%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.paragraph-8{
+    position: relative;
+    top: 15%;
+    font-size: 110%;
+}
+
+.sec-6{
+    position: relative;
+    top: 155rem;
+}
+.heading-8{
+    position: relative;
+    top: 18%;
+    font-size: 1.8rem;
+}
+.paragraph-9{
+    font-size: 0.9rem;
+    position: relative;
+    top: 25%;
+}
+.icon-3{
+    width: 70%;
+    height: 13vh;
+    font-size: 7rem;
+    position: relative;
+    left: 5%;
+}
+
+.sec-7{
+    position: relative;
+    top: 158rem;
+}
+.sec-7-partition{
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.sec-7-circles-text{
+    position: relative;
+    left: 17%;
+    bottom: 20%;
+}
+
+.sec-8{
+    position: relative;
+    top: 188rem;
+    height: 80vh;
+}
+.btn-3{
+    width: 30%;
+    height: 5vh;
+    background-color: orange;
+    border: none;
+}
+.paragraph-6{
+    width: 100%;
+}
+
+.sec-9{
+    position: relative;
+    top: 183rem;
+}
+.paragraph-7{
+    margin-top: 10px;
+}
+.location{
+    font-size: xx-large;
+}
+.add-contact{
+    display: block;
+    font-size: large;
+}
+
+                                              /* footer */
+
+.footer{
+    position: relative;
+    top: 177rem;
+}
+.footer-heading{
+    font-size: 3rex;
+}
+.footer-paragraph{
+    font-size: 0.9rem;
+}
+.a-2{
+    font-size: large;
+}
+.a-3{
+    font-size: 78%;
+}
+.footer-heading-2{
+    font-size: 1rem;
+}
+.foot-icon{
+    border-radius: 50%;
+    width: 35%;
+    height: 5vh;
+    font-size: 15px;
+}
+.copyright{
+    font-size: 20px;
+}
+}
